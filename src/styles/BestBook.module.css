@@ -1,0 +1,29 @@
+.wrapper{
+    margin: 1em auto;
+    padding: 1px 0;
+    width: 1024px;
+    background-color: burlywood;
+}
+
+.wrapper h3{
+    margin: 2em;
+}
+
+.scrollbar{
+    margin: 1em 1em auto;
+    background-color: white;
+    overflow-y: scroll;
+    white-space: nowrap;
+}
+
+.scrollbar::-webkit-scrollbar{
+    height: 8px;
+}
+.scrollbar::-webkit-scrollbar-thumb{
+    background-color: gray;
+    border-radius: 4px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover{
+    background-color: dimgray;
+}

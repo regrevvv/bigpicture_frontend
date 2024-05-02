@@ -20,8 +20,8 @@ function Header() {
         <div className={styles.end}>
             <ul className={styles.menu}>
                 <li>로그인</li>
-                <li><img width="40px" height="40px" src={search_uri} alt="검색" /></li>
-                <li><img width="40px" height="40px" src={menu_uri} alt="메뉴" /></li>
+                <li><img width="30px" height="30px" src={search_uri} alt="검색" /></li>
+                <li><img width="30px" height="30px" src={menu_uri} alt="메뉴" /></li>
             </ul>
         </div>
     </div>
