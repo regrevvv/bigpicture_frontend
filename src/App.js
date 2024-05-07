@@ -1,19 +1,16 @@
-import Header from "./Header.js"
-import BestBook from "./BestBook.js"
-import NewBook from "./NewBook.js"
-import styles from "./styles/App.module.css"
+import Header from "./component/Header.js";
+import Body from "./component/Body.js";
+import Footer from "./component/Footer.js";
+import styles from "./styles/App.module.css";
 
 function App() {
-  return (
-    <div id='wrapper' className={styles.wrapper}>
-        <Header></Header>
-        <div className={styles.poster}>
-          poster will be added here.
+    return (
+        <div id="wrapper" className={styles.wrapper}>
+            <Header />
+            <Body />
+            <Footer />
         </div>
-        <BestBook></BestBook>
-        <NewBook></NewBook>
-    </div>
-  );
+    );
 }
 
 export default App;
