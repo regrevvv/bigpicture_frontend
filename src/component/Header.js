@@ -1,4 +1,4 @@
-//import styles from "./styles/Header.module.css"
+import styles from "../styles/Header.module.css";
 
 function Header() {
     //TODO 검색, 메뉴 주소 추가하기
@@ -6,7 +6,7 @@ function Header() {
     const search_uri = "./public_assets/search.svg";
     const menu_uri = "./public_assets/menu.svg";
     return (
-        <div>
+        <div className={styles.container}>
             <div>
                 <a href="/" id="logo">
                     <img src={logo_uri} alt="logo" />

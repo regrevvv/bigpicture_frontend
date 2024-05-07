@@ -1,4 +1,4 @@
-function Bestbook_Container(props) {
+function BestbookContainer(props) {
     const Bookcover_default_uri = "./public_assets/bookcover_example1.svg";
     const thumbsup_uri = "./public_assets/thumbsup.svg";
     return (
@@ -10,10 +10,11 @@ function Bestbook_Container(props) {
             <span>저자</span>
             <br></br>
             <span>
-                <img src={thumbsup_uri}></img>총 추천수(오늘 추천수)
+                <img src={thumbsup_uri} alt="좋아요"></img>총 추천수(오늘
+                추천수)
             </span>
         </div>
     );
 }
 
-export default Bestbook_Container;
+export default BestbookContainer;

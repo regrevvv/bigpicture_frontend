@@ -1,14 +1,14 @@
-import Foster from "./body/Foster";
-import Bestbook_Container from "./body/Bestbook_Container";
-import FAQs from "./body/FAQ_Container";
-import Newbook_Container from "./body/Newbook_Container";
+import Poster from "./body/Poster";
+import BestbookContainer from "./body/BestbookContainer";
+import FAQs from "./body/FAQContainer";
+import NewbookContainer from "./body/NewbookContainer";
 
 function Body() {
     return (
         <>
-            <Foster />
-            <Bestbook_Container />
-            <Newbook_Container />
+            <Poster />
+            <BestbookContainer />
+            <NewbookContainer />
             <FAQs />
         </>
     );

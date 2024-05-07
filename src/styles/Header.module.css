@@ -1,20 +1,21 @@
-.container{
-    height: 80px;
-    margin: 0 auto;
-    padding: 10px 200px;
+.container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+
+    height: 120px;
+    margin: 0 auto;
+
     border-bottom: 2px solid black;
 }
 
-.start{
+.start {
     text-align: center;
     display: flex;
 }
 
-.end{
+.end {
     display: flex;
     text-align: center;
 }
@@ -26,15 +27,15 @@
     align-items: center;
 }
 
-.menu li{
+.menu li {
     display: inline-block;
     align-self: center;
     list-style-type: none;
-    font-size:1.5em;
+    font-size: 1.5em;
     padding: 0px 10px;
     transition: text-shadow 0.5s;
 }
 
-.menu li:hover{
+.menu li:hover {
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
